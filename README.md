@@ -4,22 +4,23 @@
 
 ## Author: Thaer Braizat
 
-[tests report](https://github.com/thaerbraizat/basic-express-server/actions)
-[front-end]()
-Setup
-.env requirements
-PORT - Port Number
-Running the app
-npm start
-Endpoint: /status
-Returns Object
+* [tests report](https://github.com/thaerbraizat/basic-express-server/actions)
+* [front-end](https://basic-express-s.herokuapp.com/status)
 
-{
-  "domain": "john-api-server.demo.herokuapp.com",
-  "status": "running",
-  "port": 42123
-}
-Tests
+### Setup
+.env requirements
+* PORT -3001
+
+### Running the app
+* npm start
+* Endpoint: /status
+   * Returns Object
+
+![data](imag/lab222.JPG)
+
+### Tests
 Unit Tests: npm run test
-Lint Tests: npm run lint
-UML
+
+### UML
+
+![UML](imag/lab2.JPG)
