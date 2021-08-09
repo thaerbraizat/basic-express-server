@@ -16,6 +16,14 @@ app.get('/', (req, res)=> {
     res.send('WORKING FINE !!!')
 });
 
+app.get('/status', (req, res)=> {
+    res.json({
+        status: "running",
+        port:process.env.PORT,
+        domain:"https://basic-express-s.herokuapp.com/"
+    });
+});
+
 app.get('/person', validator(),(req,res)=>{
    const userName = req.query.userName
     res.json({
