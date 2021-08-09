@@ -11,7 +11,7 @@ function validator() {
             
             next()
         } else {
-            next(`you have to enter name`)
+            next(`you have to enter userName`)
         }
         
     }
